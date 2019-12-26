@@ -41,7 +41,7 @@
 - (void)setupSubviews {
     self.title = [[UILabel alloc] init];
     self.title.textColor = kColor32;
-    self.title.font = [UIFont systemFontOfSize:14];
+    self.title.font = kFont16;
     self.title.textAlignment = NSTextAlignmentCenter;
     [self addSubview:self.title];
     [self.title mas_makeConstraints:^(MASConstraintMaker *make) {

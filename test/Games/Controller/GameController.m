@@ -11,6 +11,10 @@
 #import "GameModel.h"
 #import "GameCell.h"
 
+#import "BWController.h"
+#import "PPController.h"
+
+
 @interface GameController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong) UITableView *tableView;
 @property(nonatomic,strong) NSMutableArray *data;
@@ -22,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    self.title = @"小游戏";
     _tableView = [[UITableView alloc] init];
     _tableView.delegate = self;
     _tableView.dataSource = self;
@@ -51,16 +55,20 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     GameCell*cell = [GameCell cellWithTableView:tableView];
     GameModel *model = _data[indexPath.row];
-    cell.detailTextLabel.text = model.title;
+    cell.title.text = model.title;
     return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    UIViewController *vc;
     if (indexPath.row == 0) {
-        
+        BWController *bwVC = [[BWController alloc] init];
+        vc = bwVC;
     }else {
-        
+        PPController *ppVC = [[PPController alloc] init];
+        vc = ppVC;
     }
+    [self.navigationController pushViewController:vc animated:YES];
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 44;

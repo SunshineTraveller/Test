@@ -9,6 +9,18 @@
 #ifndef SFColorDefines_h
 #define SFColorDefines_h
 
+
+
+
+
+
+
+
+
+#define image(a)                        [UIImage imageNamed:(a)]
+
+
+
 #define SFhexColor(colorV)              [UIColor hexStringToColor:(colorV)]
 #define SFhexColorAlpha(colorV,a)       [UIColor colorWithHexColorString:(colorV) alpha:a]
 #define kCommonRedColor                 SFhexColor(@"fc426e")

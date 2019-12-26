@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface GameController : UIViewController
+@interface GameController : SFBaseController
 
 @end
 

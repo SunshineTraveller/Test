@@ -13,6 +13,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface GameCell : UITableViewCell
+@property(nonatomic,strong) UILabel *title;          
 + (instancetype)cellWithTableView:(UITableView *)tableView;
 
 @end

@@ -11,7 +11,7 @@
 #import "TTCell.h"
 
 
-#import "BWController.h"
+#import "GameController.h"
 #import "ReaderViewController.h"
 
 #import <WebKit/WebKit.h>
@@ -60,10 +60,11 @@
     TTModel *model = [_data objectAtIndex:indexPath.row];
     // 游戏相关
     if (model.type == TTTypeGame) {
-        BWController *vc = [[BWController alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
+        GameController *gameVC = [[GameController alloc] init];
+        [self.navigationController pushViewController:gameVC animated:YES];
     }else {
-        
+        ReaderViewController *read = [[ReaderViewController alloc] init];
+        [self.navigationController pushViewController:read animated:YES];
     }
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {

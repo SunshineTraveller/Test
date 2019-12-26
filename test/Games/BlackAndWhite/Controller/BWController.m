@@ -11,24 +11,28 @@
 #import "BWScrollView.h"
 
 @interface BWController ()
-
+@property(nonatomic,strong) UIButton     *guide;
+@property(nonatomic,strong) BWScrollView *contentView;
 @end
 
 @implementation BWController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.title = @"黑白块";
+    _contentView = [[BWScrollView alloc] init];
+    [self.view addSubview:_contentView];
+    [_contentView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.mas_equalTo(UIEdgeInsetsZero);
+    }];
+    
+    _guide = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:_guide];
+    
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+
 
 @end

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TTVC : UIViewController
+@interface TTVC : SFBaseController
 @property (nonatomic, strong) NSString *tempString; //
 @end

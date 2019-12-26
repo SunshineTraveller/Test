@@ -27,8 +27,19 @@
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         self.backgroundColor = UIColor.clearColor;
         self.selectionStyle = UITableViewCellSelectionStyleNone;
+        
+        [self setupSubviews];
     }
     return self;
 }
-
+- (void)setupSubviews {
+    self.title = [[UILabel alloc] init];
+    self.title.textColor = kColor32;
+    self.title.font = kFont16;
+    self.title.textAlignment = NSTextAlignmentCenter;
+    [self addSubview:self.title];
+    [self.title mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.top.bottom.equalTo(self);
+    }];
+}
 @end

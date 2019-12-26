@@ -53,6 +53,17 @@
 		722FF8342340B5200041240C /* 计算机科学概论.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 722FF8332340B5200041240C /* 计算机科学概论.pdf */; };
 		722FF8372340B5750041240C /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 722FF8362340B5750041240C /* ReaderViewController.m */; };
 		7282145523B372FE0084C110 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7282145323B372FD0084C110 /* UIColor+Extension.m */; };
+		72AF35A823B4BD9400AF8121 /* PPController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AF359723B4BD9400AF8121 /* PPController.m */; };
+		72AF35A923B4BD9400AF8121 /* icon_ppBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 72AF359923B4BD9400AF8121 /* icon_ppBall.png */; };
+		72AF35AA23B4BD9400AF8121 /* icon_ppNet.png in Resources */ = {isa = PBXBuildFile; fileRef = 72AF359A23B4BD9400AF8121 /* icon_ppNet.png */; };
+		72AF35AB23B4BD9400AF8121 /* PPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AF359C23B4BD9400AF8121 /* PPModel.m */; };
+		72AF35AC23B4BD9400AF8121 /* PPBat.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AF35A023B4BD9400AF8121 /* PPBat.m */; };
+		72AF35AD23B4BD9400AF8121 /* PPBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AF35A423B4BD9400AF8121 /* PPBall.m */; };
+		72AF35AE23B4BD9400AF8121 /* PPTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AF35A623B4BD9400AF8121 /* PPTable.m */; };
+		72AF35B423B4BEDB00AF8121 /* SFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AF35B023B4BEDB00AF8121 /* SFNavigationController.m */; };
+		72AF35B523B4BEDB00AF8121 /* SFBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AF35B323B4BEDB00AF8121 /* SFBaseController.m */; };
+		72AF35B823B4BF8A00AF8121 /* SFNavigationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AF35B723B4BF8900AF8121 /* SFNavigationManager.m */; };
+		72AF35BB23B4C00A00AF8121 /* NSObject+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AF35BA23B4C00A00AF8121 /* NSObject+Extention.m */; };
 		72B3C40E21A6CD420053BD5B /* TTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B3C40D21A6CD420053BD5B /* TTVC.m */; };
 		72BFEAD62340B27B00CC4AA6 /* 计算机网络.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 72BFEAD52340B27B00CC4AA6 /* 计算机网络.pdf */; };
 		72BFEAD92340B29100CC4AA6 /* PDFReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BFEAD82340B29100CC4AA6 /* PDFReaderController.m */; };
@@ -152,6 +163,26 @@
 		7282145023B372350084C110 /* SFColorDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFColorDefines.h; sourceTree = "<group>"; };
 		7282145323B372FD0084C110 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		7282145423B372FE0084C110 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		72AF359623B4BD9400AF8121 /* PPController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPController.h; sourceTree = "<group>"; };
+		72AF359723B4BD9400AF8121 /* PPController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPController.m; sourceTree = "<group>"; };
+		72AF359923B4BD9400AF8121 /* icon_ppBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ppBall.png; sourceTree = "<group>"; };
+		72AF359A23B4BD9400AF8121 /* icon_ppNet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ppNet.png; sourceTree = "<group>"; };
+		72AF359C23B4BD9400AF8121 /* PPModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPModel.m; sourceTree = "<group>"; };
+		72AF359D23B4BD9400AF8121 /* PPModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPModel.h; sourceTree = "<group>"; };
+		72AF35A023B4BD9400AF8121 /* PPBat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPBat.m; sourceTree = "<group>"; };
+		72AF35A123B4BD9400AF8121 /* PPBat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPBat.h; sourceTree = "<group>"; };
+		72AF35A323B4BD9400AF8121 /* PPBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPBall.h; sourceTree = "<group>"; };
+		72AF35A423B4BD9400AF8121 /* PPBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPBall.m; sourceTree = "<group>"; };
+		72AF35A623B4BD9400AF8121 /* PPTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTable.m; sourceTree = "<group>"; };
+		72AF35A723B4BD9400AF8121 /* PPTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTable.h; sourceTree = "<group>"; };
+		72AF35B023B4BEDB00AF8121 /* SFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFNavigationController.m; sourceTree = "<group>"; };
+		72AF35B123B4BEDB00AF8121 /* SFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFNavigationController.h; sourceTree = "<group>"; };
+		72AF35B223B4BEDB00AF8121 /* SFBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBaseController.h; sourceTree = "<group>"; };
+		72AF35B323B4BEDB00AF8121 /* SFBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBaseController.m; sourceTree = "<group>"; };
+		72AF35B623B4BF8900AF8121 /* SFNavigationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFNavigationManager.h; sourceTree = "<group>"; };
+		72AF35B723B4BF8900AF8121 /* SFNavigationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFNavigationManager.m; sourceTree = "<group>"; };
+		72AF35B923B4C00900AF8121 /* NSObject+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extention.h"; sourceTree = "<group>"; };
+		72AF35BA23B4C00A00AF8121 /* NSObject+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extention.m"; sourceTree = "<group>"; };
 		72B3C40C21A6CD420053BD5B /* TTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTVC.h; sourceTree = "<group>"; };
 		72B3C40D21A6CD420053BD5B /* TTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTVC.m; sourceTree = "<group>"; };
 		72BFEAD52340B27B00CC4AA6 /* 计算机网络.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "计算机网络.pdf"; sourceTree = "<group>"; };
@@ -271,12 +302,12 @@
 		5AEF8F05215B51AF006E854E /* test */ = {
 			isa = PBXGroup;
 			children = (
+				72AF35AF23B4BE9700AF8121 /* Base */,
 				7217417123B44A1900665903 /* Games */,
 				7204CEC123B36FD400187F70 /* Test */,
 				722FF8322340B4E80041240C /* PDF */,
 				72285DDE23B1E1E900BE4A32 /* Appdelegate */,
 				72285DDD23B1E1CC00BE4A32 /* Extension */,
-				7216B91B216069D00093C1B1 /* PrefixHeader.pch */,
 				7282145223B3723C0084C110 /* Config */,
 				5AEF8F0C215B51AF006E854E /* Main.storyboard */,
 				5AEF8F0F215B51B0006E854E /* Assets.xcassets */,
@@ -346,6 +377,7 @@
 			isa = PBXGroup;
 			children = (
 				7217418623B44B2200665903 /* Controller */,
+				72AF359423B4BD9400AF8121 /* PingPangGame */,
 				7217417223B44A4400665903 /* BlackAndWhite */,
 			);
 			path = Games;
@@ -374,8 +406,8 @@
 		7217417623B44A4400665903 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7217417723B44A4400665903 /* BWController.m */,
 				7217417823B44A4400665903 /* BWController.h */,
+				7217417723B44A4400665903 /* BWController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -392,9 +424,9 @@
 		7217417C23B44A4400665903 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7217417F23B44A4400665903 /* BWItm.h */,
 				7217417D23B44A4400665903 /* BWItm.m */,
 				7217417E23B44A4400665903 /* BWScrollView.h */,
-				7217417F23B44A4400665903 /* BWItm.h */,
 				7217418023B44A4400665903 /* BWScrollView.m */,
 			);
 			path = View;
@@ -416,6 +448,8 @@
 		72285DDD23B1E1CC00BE4A32 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				72AF35B923B4C00900AF8121 /* NSObject+Extention.h */,
+				72AF35BA23B4C00A00AF8121 /* NSObject+Extention.m */,
 				7282145423B372FE0084C110 /* UIColor+Extension.h */,
 				7282145323B372FD0084C110 /* UIColor+Extension.m */,
 				722E3CC722F3DBE2008C53AF /* UIView+Extension.h */,
@@ -455,9 +489,98 @@
 		7282145223B3723C0084C110 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				7216B91B216069D00093C1B1 /* PrefixHeader.pch */,
 				7282145023B372350084C110 /* SFColorDefines.h */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		72AF359423B4BD9400AF8121 /* PingPangGame */ = {
+			isa = PBXGroup;
+			children = (
+				72AF359523B4BD9400AF8121 /* Controller */,
+				72AF359823B4BD9400AF8121 /* PPSources */,
+				72AF359B23B4BD9400AF8121 /* Model */,
+				72AF359E23B4BD9400AF8121 /* View */,
+			);
+			path = PingPangGame;
+			sourceTree = "<group>";
+		};
+		72AF359523B4BD9400AF8121 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				72AF359623B4BD9400AF8121 /* PPController.h */,
+				72AF359723B4BD9400AF8121 /* PPController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		72AF359823B4BD9400AF8121 /* PPSources */ = {
+			isa = PBXGroup;
+			children = (
+				72AF359923B4BD9400AF8121 /* icon_ppBall.png */,
+				72AF359A23B4BD9400AF8121 /* icon_ppNet.png */,
+			);
+			path = PPSources;
+			sourceTree = "<group>";
+		};
+		72AF359B23B4BD9400AF8121 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72AF359C23B4BD9400AF8121 /* PPModel.m */,
+				72AF359D23B4BD9400AF8121 /* PPModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72AF359E23B4BD9400AF8121 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72AF359F23B4BD9400AF8121 /* PingPangBat */,
+				72AF35A223B4BD9400AF8121 /* PingPangBall */,
+				72AF35A523B4BD9400AF8121 /* PingPangTable */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		72AF359F23B4BD9400AF8121 /* PingPangBat */ = {
+			isa = PBXGroup;
+			children = (
+				72AF35A023B4BD9400AF8121 /* PPBat.m */,
+				72AF35A123B4BD9400AF8121 /* PPBat.h */,
+			);
+			path = PingPangBat;
+			sourceTree = "<group>";
+		};
+		72AF35A223B4BD9400AF8121 /* PingPangBall */ = {
+			isa = PBXGroup;
+			children = (
+				72AF35A323B4BD9400AF8121 /* PPBall.h */,
+				72AF35A423B4BD9400AF8121 /* PPBall.m */,
+			);
+			path = PingPangBall;
+			sourceTree = "<group>";
+		};
+		72AF35A523B4BD9400AF8121 /* PingPangTable */ = {
+			isa = PBXGroup;
+			children = (
+				72AF35A623B4BD9400AF8121 /* PPTable.m */,
+				72AF35A723B4BD9400AF8121 /* PPTable.h */,
+			);
+			path = PingPangTable;
+			sourceTree = "<group>";
+		};
+		72AF35AF23B4BE9700AF8121 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				72AF35B223B4BEDB00AF8121 /* SFBaseController.h */,
+				72AF35B323B4BEDB00AF8121 /* SFBaseController.m */,
+				72AF35B123B4BEDB00AF8121 /* SFNavigationController.h */,
+				72AF35B023B4BEDB00AF8121 /* SFNavigationController.m */,
+				72AF35B623B4BF8900AF8121 /* SFNavigationManager.h */,
+				72AF35B723B4BF8900AF8121 /* SFNavigationManager.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		B0F1102B324E5C95F879A681 /* Pods */ = {
@@ -577,7 +700,9 @@
 				5AEF8F13215B51B0006E854E /* LaunchScreen.storyboard in Resources */,
 				5AEF8F10215B51B0006E854E /* Assets.xcassets in Resources */,
 				722FF8342340B5200041240C /* 计算机科学概论.pdf in Resources */,
+				72AF35AA23B4BD9400AF8121 /* icon_ppNet.png in Resources */,
 				5AEF8F0E215B51AF006E854E /* Main.storyboard in Resources */,
+				72AF35A923B4BD9400AF8121 /* icon_ppBall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,7 +748,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72AF35BB23B4C00A00AF8121 /* NSObject+Extention.m in Sources */,
 				7217418223B44A4400665903 /* BWController.m in Sources */,
+				72AF35AB23B4BD9400AF8121 /* PPModel.m in Sources */,
 				7217418523B44A4400665903 /* BWScrollView.m in Sources */,
 				72EE9D942230EC63004B39C5 /* UIImage+Extension.m in Sources */,
 				7223E5372340BA8A00C5471A /* CommentNode.m in Sources */,
@@ -633,14 +760,21 @@
 				5AEF8F16215B51B0006E854E /* main.m in Sources */,
 				7217418123B44A4400665903 /* BWItemCreater.m in Sources */,
 				7217418C23B44B8700665903 /* GameModel.m in Sources */,
+				72AF35AE23B4BD9400AF8121 /* PPTable.m in Sources */,
+				72AF35B423B4BEDB00AF8121 /* SFNavigationController.m in Sources */,
 				7217418323B44A4400665903 /* BWModel.m in Sources */,
 				7217418F23B44B9800665903 /* GameCell.m in Sources */,
+				72AF35A823B4BD9400AF8121 /* PPController.m in Sources */,
+				72AF35B823B4BF8A00AF8121 /* SFNavigationManager.m in Sources */,
+				72AF35AD23B4BD9400AF8121 /* PPBall.m in Sources */,
 				7282145523B372FE0084C110 /* UIColor+Extension.m in Sources */,
+				72AF35B523B4BEDB00AF8121 /* SFBaseController.m in Sources */,
 				72BFEAD92340B29100CC4AA6 /* PDFReaderController.m in Sources */,
 				7204CEC723B3700700187F70 /* TTCell.m in Sources */,
 				72EE9D952230EC63004B39C5 /* UIImage+ImageEffects.m in Sources */,
 				7204CECA23B3700F00187F70 /* TTModel.m in Sources */,
 				7217418923B44B3500665903 /* GameController.m in Sources */,
+				72AF35AC23B4BD9400AF8121 /* PPBat.m in Sources */,
 				722FF8372340B5750041240C /* ReaderViewController.m in Sources */,
 				5AEF8F08215B51AF006E854E /* AppDelegate.m in Sources */,
 			);
@@ -824,7 +958,7 @@
 					"$(PROJECT_DIR)/test/New\\ Group/RongYun",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/test/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = /Users/cbct_mbp/Desktop/Github/Test/test/Config/PrefixHeader.pch;
 				INFOPLIST_FILE = test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -846,7 +980,7 @@
 					"$(PROJECT_DIR)/test/New\\ Group/RongYun",
 					"$(PROJECT_DIR)/test/New\\ Group/RongYun",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CBCT.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sunshine.test;
 				PRODUCT_NAME = "听见广播";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -867,7 +1001,7 @@
 					"$(PROJECT_DIR)/test/New\\ Group/RongYun",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/test/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = /Users/cbct_mbp/Desktop/Github/Test/test/Config/PrefixHeader.pch;
 				INFOPLIST_FILE = test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -889,7 +1023,7 @@
 					"$(PROJECT_DIR)/test/New\\ Group/RongYun",
 					"$(PROJECT_DIR)/test/New\\ Group/RongYun",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CBCT.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sunshine.test;
 				PRODUCT_NAME = "听见广播";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -7,9 +7,9 @@
 //
 #import <CoreLocation/CoreLocation.h>
 #import "AppDelegate.h"
-#import <BarrageRenderer.h>
 
 #import "TTVC.h"
+#import "SFNavigationController.h"
 
 
 
@@ -33,7 +33,7 @@
     [_window makeKeyAndVisible];
     TTVC *vc = [[TTVC alloc] init];
     vc.title = @"首页";
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    SFNavigationController *nav = [[SFNavigationController alloc] initWithRootViewController:vc];
     _window.rootViewController = nav;
 
     return YES;

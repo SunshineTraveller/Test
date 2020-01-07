@@ -12,10 +12,10 @@
 
 @property(nonatomic,strong) UIScrollView *contentView;
 @property(nonatomic,strong) UIView       *topContainer;   // 第一个容器
+@property(nonatomic,strong) UIView       *midContainer;   // 第一个容器
 @property(nonatomic,strong) UIView       *btmContainer;   // 第二个容器
 @property(nonatomic,strong) NSTimer      *timer;          // 计时器
 
-@property(nonatomic,assign) CGFloat      scrollUnit;      // 滚动单位长
 @property(nonatomic,assign) CGFloat      speed;           // 滚动速度
 
 @end
@@ -37,7 +37,6 @@
     [self layoutCustomviews];
 }
 -(void)setupDefaultData {
-    _scrollUnit = 20;
     _speed      = 2*10;
 }
 /* 创建计时器 */
@@ -57,41 +56,57 @@
 -(void)addCustomViews {
     [self addSubview:self.contentView];
     [self.contentView addSubview:self.topContainer];
+    [self.contentView addSubview:self.midContainer];
     [self.contentView addSubview:self.btmContainer];
 }
 /* 容器约束 */
 -(void)layoutCustomviews {
     [self.contentView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.mas_equalTo(UIEdgeInsetsZero);
+        make.left.right.bottom.top.mas_equalTo(0);
     }];
     [self.topContainer mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.left.right.equalTo(self.contentView);
+        make.top.left.mas_equalTo(0);
         make.height.mas_equalTo(kScreenH);
+        make.width.mas_equalTo(kScreenW);
+    }];
+    [self.midContainer mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(0);
+        make.top.equalTo(self.topContainer.mas_bottom);
+        make.height.mas_equalTo(kScreenH);
+        make.width.mas_equalTo(kScreenW);
     }];
     [self.btmContainer mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.topContainer.mas_bottom);
-        make.left.right.equalTo(self.contentView);
+        make.left.mas_equalTo(0);
+        make.top.equalTo(self.midContainer.mas_bottom);
         make.height.mas_equalTo(kScreenH);
+        make.width.mas_equalTo(kScreenW);
     }];
 }
 
 #pragma mark ****************  actions  ****************
 -(void)timerAction {
-    _scrollUnit += _speed;
-    [self.contentView setContentOffset:CGPointMake(0, _scrollUnit)];
+    [UIView animateWithDuration:_speed animations:^{
+        [self.contentView setContentOffset:CGPointMake(0, kScreenH)];
+    }];
 }
 
 #pragma mark ****************  UIScrollViewDelegate  ****************
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView {
     CGPoint offset = scrollView.contentOffset;
-    NSLog(@"-0---  %f",offset.y);
-    if (offset.y) {
-        
+    
+    if (offset.y == 2*kScreenH) {
+        [self.topContainer mas_updateConstraints:^(MASConstraintMaker *make) {
+            make.top.equalTo(self.btmContainer.mas_bottom);
+        }];
     }
+    
 }
 
 
 #pragma mark ****************  public  ****************
+-(void)setupSpeed:(CGFloat)speed {
+    _speed = speed;
+}
 -(void)startGame {
     [self fireTimer];
 }
@@ -99,11 +114,12 @@
     [self invalidateTime];
 }
 
+
 #pragma mark ****************  getter  ****************
 -(UIScrollView *)contentView {
     if (!_contentView) {
         _contentView = [[UIScrollView alloc] init];
-        _contentView.contentSize = CGSizeMake(kScreenW, kScreenH);
+        _contentView.contentSize = CGSizeMake(kScreenW, 2*kScreenH);
         _contentView.showsHorizontalScrollIndicator = NO;
         _contentView.showsVerticalScrollIndicator = NO;
         _contentView.bounces = NO;
@@ -125,6 +141,12 @@
     }
     return _btmContainer;
 }
-
+-(UIView *)midContainer {
+    if (!_midContainer) {
+        _midContainer = [[UIView alloc] init];
+        _midContainer.backgroundColor = UIColor.cyanColor;
+    }
+    return _midContainer;
+}
 
 @end

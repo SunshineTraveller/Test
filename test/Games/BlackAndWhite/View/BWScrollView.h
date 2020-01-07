@@ -11,6 +11,7 @@
 
 @interface BWScrollView : UIView
 
+-(void)setupSpeed:(CGFloat)speed;
 
 -(void)startGame;
 -(void)stopGame;

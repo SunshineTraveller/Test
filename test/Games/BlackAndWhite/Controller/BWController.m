@@ -20,12 +20,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"黑白块";
+    self.hideNavigationBar = YES;
     _contentView = [[BWScrollView alloc] init];
     [self.view addSubview:_contentView];
     [_contentView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.mas_equalTo(UIEdgeInsetsZero);
     }];
+    [_contentView setupSpeed:10];
     
     _guide = [UIButton buttonWithType:UIButtonTypeCustom];
     [self.view addSubview:_guide];

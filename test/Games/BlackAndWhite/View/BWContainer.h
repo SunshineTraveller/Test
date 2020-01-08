@@ -8,12 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+#import "BWConfig.h"
 
-@interface BWScrollView : UIView
+@interface BWContainer : UIView
 
--(void)setupSpeed:(CGFloat)speed;
-
+/* 设置游戏配置 */
+-(void)setupConfig:(BWConfig *)config;
+/* 开始游戏 */
 -(void)startGame;
+/* 结束游戏 */
 -(void)stopGame;
 
 @end

@@ -15,7 +15,9 @@
 #define kScreenW  [UIScreen mainScreen].bounds.size.width
 #define kScreenH  [UIScreen mainScreen].bounds.size.height
 
+#define kFont(r)  [UIFont systemFontOfSize:(r)]
 #define kFont16   [UIFont systemFontOfSize:16]
+
 
 #import "UIColor+Extension.h"
 #import "UIView+Extension.h"

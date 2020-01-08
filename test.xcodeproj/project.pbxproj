@@ -43,8 +43,8 @@
 		7217418123B44A4400665903 /* BWItemCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217417523B44A4400665903 /* BWItemCreater.m */; };
 		7217418223B44A4400665903 /* BWController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217417723B44A4400665903 /* BWController.m */; };
 		7217418323B44A4400665903 /* BWModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217417A23B44A4400665903 /* BWModel.m */; };
-		7217418423B44A4400665903 /* BWItm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217417D23B44A4400665903 /* BWItm.m */; };
-		7217418523B44A4400665903 /* BWScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217418023B44A4400665903 /* BWScrollView.m */; };
+		7217418423B44A4400665903 /* BWCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217417D23B44A4400665903 /* BWCell.m */; };
+		7217418523B44A4400665903 /* BWContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217418023B44A4400665903 /* BWContainer.m */; };
 		7217418923B44B3500665903 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217418823B44B3500665903 /* GameController.m */; };
 		7217418C23B44B8700665903 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217418B23B44B8700665903 /* GameModel.m */; };
 		7217418F23B44B9800665903 /* GameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217418E23B44B9800665903 /* GameCell.m */; };
@@ -52,6 +52,7 @@
 		722E3CC922F3DBE3008C53AF /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 722E3CC822F3DBE2008C53AF /* UIView+Extension.m */; };
 		722FF8342340B5200041240C /* 计算机科学概论.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 722FF8332340B5200041240C /* 计算机科学概论.pdf */; };
 		722FF8372340B5750041240C /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 722FF8362340B5750041240C /* ReaderViewController.m */; };
+		723B81D523C57B5A001D52EE /* BWConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 723B81D423C57B5A001D52EE /* BWConfig.m */; };
 		7282145523B372FE0084C110 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7282145323B372FD0084C110 /* UIColor+Extension.m */; };
 		72AF35A823B4BD9400AF8121 /* PPController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AF359723B4BD9400AF8121 /* PPController.m */; };
 		72AF35A923B4BD9400AF8121 /* icon_ppBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 72AF359923B4BD9400AF8121 /* icon_ppBall.png */; };
@@ -143,10 +144,9 @@
 		7217417823B44A4400665903 /* BWController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWController.h; sourceTree = "<group>"; };
 		7217417A23B44A4400665903 /* BWModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWModel.m; sourceTree = "<group>"; };
 		7217417B23B44A4400665903 /* BWModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWModel.h; sourceTree = "<group>"; };
-		7217417D23B44A4400665903 /* BWItm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWItm.m; sourceTree = "<group>"; };
-		7217417E23B44A4400665903 /* BWScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWScrollView.h; sourceTree = "<group>"; };
-		7217417F23B44A4400665903 /* BWItm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWItm.h; sourceTree = "<group>"; };
-		7217418023B44A4400665903 /* BWScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWScrollView.m; sourceTree = "<group>"; };
+		7217417D23B44A4400665903 /* BWCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCell.m; sourceTree = "<group>"; };
+		7217417E23B44A4400665903 /* BWContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWContainer.h; sourceTree = "<group>"; };
+		7217418023B44A4400665903 /* BWContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWContainer.m; sourceTree = "<group>"; };
 		7217418723B44B3500665903 /* GameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
 		7217418823B44B3500665903 /* GameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
 		7217418A23B44B8700665903 /* GameModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
@@ -160,6 +160,9 @@
 		722FF8332340B5200041240C /* 计算机科学概论.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "计算机科学概论.pdf"; sourceTree = "<group>"; };
 		722FF8352340B5750041240C /* ReaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReaderViewController.h; sourceTree = "<group>"; };
 		722FF8362340B5750041240C /* ReaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReaderViewController.m; sourceTree = "<group>"; };
+		723B81D323C57B5A001D52EE /* BWConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWConfig.h; sourceTree = "<group>"; };
+		723B81D423C57B5A001D52EE /* BWConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWConfig.m; sourceTree = "<group>"; };
+		723B81D623C59F73001D52EE /* BWCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCell.h; sourceTree = "<group>"; };
 		7282145023B372350084C110 /* SFColorDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFColorDefines.h; sourceTree = "<group>"; };
 		7282145323B372FD0084C110 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		7282145423B372FE0084C110 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
@@ -415,8 +418,10 @@
 		7217417923B44A4400665903 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7217417A23B44A4400665903 /* BWModel.m */,
+				723B81D323C57B5A001D52EE /* BWConfig.h */,
+				723B81D423C57B5A001D52EE /* BWConfig.m */,
 				7217417B23B44A4400665903 /* BWModel.h */,
+				7217417A23B44A4400665903 /* BWModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -424,10 +429,10 @@
 		7217417C23B44A4400665903 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7217417F23B44A4400665903 /* BWItm.h */,
-				7217417D23B44A4400665903 /* BWItm.m */,
-				7217417E23B44A4400665903 /* BWScrollView.h */,
-				7217418023B44A4400665903 /* BWScrollView.m */,
+				723B81D623C59F73001D52EE /* BWCell.h */,
+				7217417D23B44A4400665903 /* BWCell.m */,
+				7217417E23B44A4400665903 /* BWContainer.h */,
+				7217418023B44A4400665903 /* BWContainer.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -751,17 +756,18 @@
 				72AF35BB23B4C00A00AF8121 /* NSObject+Extention.m in Sources */,
 				7217418223B44A4400665903 /* BWController.m in Sources */,
 				72AF35AB23B4BD9400AF8121 /* PPModel.m in Sources */,
-				7217418523B44A4400665903 /* BWScrollView.m in Sources */,
+				7217418523B44A4400665903 /* BWContainer.m in Sources */,
 				72EE9D942230EC63004B39C5 /* UIImage+Extension.m in Sources */,
 				7223E5372340BA8A00C5471A /* CommentNode.m in Sources */,
 				72B3C40E21A6CD420053BD5B /* TTVC.m in Sources */,
 				722E3CC922F3DBE3008C53AF /* UIView+Extension.m in Sources */,
-				7217418423B44A4400665903 /* BWItm.m in Sources */,
+				7217418423B44A4400665903 /* BWCell.m in Sources */,
 				5AEF8F16215B51B0006E854E /* main.m in Sources */,
 				7217418123B44A4400665903 /* BWItemCreater.m in Sources */,
 				7217418C23B44B8700665903 /* GameModel.m in Sources */,
 				72AF35AE23B4BD9400AF8121 /* PPTable.m in Sources */,
 				72AF35B423B4BEDB00AF8121 /* SFNavigationController.m in Sources */,
+				723B81D523C57B5A001D52EE /* BWConfig.m in Sources */,
 				7217418323B44A4400665903 /* BWModel.m in Sources */,
 				7217418F23B44B9800665903 /* GameCell.m in Sources */,
 				72AF35A823B4BD9400AF8121 /* PPController.m in Sources */,

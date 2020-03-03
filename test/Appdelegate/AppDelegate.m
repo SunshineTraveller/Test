@@ -35,7 +35,6 @@
     vc.title = @"首页";
     SFNavigationController *nav = [[SFNavigationController alloc] initWithRootViewController:vc];
     _window.rootViewController = nav;
-
     return YES;
 }
 

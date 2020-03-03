@@ -43,17 +43,19 @@
 		7217418123B44A4400665903 /* BWItemCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217417523B44A4400665903 /* BWItemCreater.m */; };
 		7217418223B44A4400665903 /* BWController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217417723B44A4400665903 /* BWController.m */; };
 		7217418323B44A4400665903 /* BWModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217417A23B44A4400665903 /* BWModel.m */; };
-		7217418423B44A4400665903 /* BWCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217417D23B44A4400665903 /* BWCell.m */; };
-		7217418523B44A4400665903 /* BWContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217418023B44A4400665903 /* BWContainer.m */; };
+		7217418523B44A4400665903 /* BWGameContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217418023B44A4400665903 /* BWGameContainer.m */; };
 		7217418923B44B3500665903 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217418823B44B3500665903 /* GameController.m */; };
 		7217418C23B44B8700665903 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217418B23B44B8700665903 /* GameModel.m */; };
 		7217418F23B44B9800665903 /* GameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217418E23B44B9800665903 /* GameCell.m */; };
-		7223E5372340BA8A00C5471A /* CommentNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223E5362340BA8A00C5471A /* CommentNode.m */; };
 		722E3CC922F3DBE3008C53AF /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 722E3CC822F3DBE2008C53AF /* UIView+Extension.m */; };
 		722FF8342340B5200041240C /* 计算机科学概论.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 722FF8332340B5200041240C /* 计算机科学概论.pdf */; };
 		722FF8372340B5750041240C /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 722FF8362340B5750041240C /* ReaderViewController.m */; };
-		723B81D523C57B5A001D52EE /* BWConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 723B81D423C57B5A001D52EE /* BWConfig.m */; };
 		7282145523B372FE0084C110 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7282145323B372FD0084C110 /* UIColor+Extension.m */; };
+		72957BBA23D53F810092831F /* BWGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72957BB923D53F810092831F /* BWGameView.m */; };
+		72957BBD23D541470092831F /* BWConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 72957BBC23D541470092831F /* BWConfig.m */; };
+		72957BC023D547EA0092831F /* BWGameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72957BBF23D547EA0092831F /* BWGameCell.m */; };
+		72957BC523D57EE50092831F /* CommentNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 72957BC323D57EE50092831F /* CommentNode.m */; };
+		72957BC723D585070092831F /* 明朝那些事.txt in Resources */ = {isa = PBXBuildFile; fileRef = 72957BC623D585070092831F /* 明朝那些事.txt */; };
 		72AF35A823B4BD9400AF8121 /* PPController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AF359723B4BD9400AF8121 /* PPController.m */; };
 		72AF35A923B4BD9400AF8121 /* icon_ppBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 72AF359923B4BD9400AF8121 /* icon_ppBall.png */; };
 		72AF35AA23B4BD9400AF8121 /* icon_ppNet.png in Resources */ = {isa = PBXBuildFile; fileRef = 72AF359A23B4BD9400AF8121 /* icon_ppNet.png */; };
@@ -66,6 +68,10 @@
 		72AF35B823B4BF8A00AF8121 /* SFNavigationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AF35B723B4BF8900AF8121 /* SFNavigationManager.m */; };
 		72AF35BB23B4C00A00AF8121 /* NSObject+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AF35BA23B4C00A00AF8121 /* NSObject+Extention.m */; };
 		72B3C40E21A6CD420053BD5B /* TTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B3C40D21A6CD420053BD5B /* TTVC.m */; };
+		72B50CB42406248B00BFEF66 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B50CB32406248B00BFEF66 /* OtherViewController.m */; };
+		72B50CB724063B2E00BFEF66 /* Cycler.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B50CB624063B2E00BFEF66 /* Cycler.m */; };
+		72B50CBA24065AA900BFEF66 /* test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B50CB924065AA900BFEF66 /* test1.m */; };
+		72BA1E27240E385500C10AC7 /* RuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BA1E26240E385500C10AC7 /* RuntimeTest.m */; };
 		72BFEAD62340B27B00CC4AA6 /* 计算机网络.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 72BFEAD52340B27B00CC4AA6 /* 计算机网络.pdf */; };
 		72BFEAD92340B29100CC4AA6 /* PDFReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BFEAD82340B29100CC4AA6 /* PDFReaderController.m */; };
 		72EE9D942230EC63004B39C5 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EE9D912230EC63004B39C5 /* UIImage+Extension.m */; };
@@ -144,28 +150,31 @@
 		7217417823B44A4400665903 /* BWController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWController.h; sourceTree = "<group>"; };
 		7217417A23B44A4400665903 /* BWModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWModel.m; sourceTree = "<group>"; };
 		7217417B23B44A4400665903 /* BWModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWModel.h; sourceTree = "<group>"; };
-		7217417D23B44A4400665903 /* BWCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCell.m; sourceTree = "<group>"; };
-		7217417E23B44A4400665903 /* BWContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWContainer.h; sourceTree = "<group>"; };
-		7217418023B44A4400665903 /* BWContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWContainer.m; sourceTree = "<group>"; };
+		7217417E23B44A4400665903 /* BWGameContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWGameContainer.h; sourceTree = "<group>"; };
+		7217418023B44A4400665903 /* BWGameContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWGameContainer.m; sourceTree = "<group>"; };
 		7217418723B44B3500665903 /* GameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
 		7217418823B44B3500665903 /* GameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
 		7217418A23B44B8700665903 /* GameModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
 		7217418B23B44B8700665903 /* GameModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
 		7217418D23B44B9800665903 /* GameCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameCell.h; sourceTree = "<group>"; };
 		7217418E23B44B9800665903 /* GameCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameCell.m; sourceTree = "<group>"; };
-		7223E5352340BA8A00C5471A /* CommentNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentNode.h; sourceTree = "<group>"; };
-		7223E5362340BA8A00C5471A /* CommentNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentNode.m; sourceTree = "<group>"; };
 		722E3CC722F3DBE2008C53AF /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		722E3CC822F3DBE2008C53AF /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		722FF8332340B5200041240C /* 计算机科学概论.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "计算机科学概论.pdf"; sourceTree = "<group>"; };
 		722FF8352340B5750041240C /* ReaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReaderViewController.h; sourceTree = "<group>"; };
 		722FF8362340B5750041240C /* ReaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReaderViewController.m; sourceTree = "<group>"; };
-		723B81D323C57B5A001D52EE /* BWConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWConfig.h; sourceTree = "<group>"; };
-		723B81D423C57B5A001D52EE /* BWConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWConfig.m; sourceTree = "<group>"; };
-		723B81D623C59F73001D52EE /* BWCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCell.h; sourceTree = "<group>"; };
 		7282145023B372350084C110 /* SFColorDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFColorDefines.h; sourceTree = "<group>"; };
 		7282145323B372FD0084C110 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		7282145423B372FE0084C110 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		72957BB823D53F810092831F /* BWGameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWGameView.h; sourceTree = "<group>"; };
+		72957BB923D53F810092831F /* BWGameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWGameView.m; sourceTree = "<group>"; };
+		72957BBB23D541470092831F /* BWConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWConfig.h; sourceTree = "<group>"; };
+		72957BBC23D541470092831F /* BWConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWConfig.m; sourceTree = "<group>"; };
+		72957BBE23D547EA0092831F /* BWGameCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWGameCell.h; sourceTree = "<group>"; };
+		72957BBF23D547EA0092831F /* BWGameCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWGameCell.m; sourceTree = "<group>"; };
+		72957BC323D57EE50092831F /* CommentNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentNode.m; sourceTree = "<group>"; };
+		72957BC423D57EE50092831F /* CommentNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentNode.h; sourceTree = "<group>"; };
+		72957BC623D585070092831F /* 明朝那些事.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "明朝那些事.txt"; sourceTree = "<group>"; };
 		72AF359623B4BD9400AF8121 /* PPController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPController.h; sourceTree = "<group>"; };
 		72AF359723B4BD9400AF8121 /* PPController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPController.m; sourceTree = "<group>"; };
 		72AF359923B4BD9400AF8121 /* icon_ppBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ppBall.png; sourceTree = "<group>"; };
@@ -188,6 +197,14 @@
 		72AF35BA23B4C00A00AF8121 /* NSObject+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extention.m"; sourceTree = "<group>"; };
 		72B3C40C21A6CD420053BD5B /* TTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTVC.h; sourceTree = "<group>"; };
 		72B3C40D21A6CD420053BD5B /* TTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTVC.m; sourceTree = "<group>"; };
+		72B50CB22406248B00BFEF66 /* OtherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		72B50CB32406248B00BFEF66 /* OtherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		72B50CB524063B2E00BFEF66 /* Cycler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cycler.h; sourceTree = "<group>"; };
+		72B50CB624063B2E00BFEF66 /* Cycler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cycler.m; sourceTree = "<group>"; };
+		72B50CB824065AA900BFEF66 /* test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test1.h; sourceTree = "<group>"; };
+		72B50CB924065AA900BFEF66 /* test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test1.m; sourceTree = "<group>"; };
+		72BA1E25240E385500C10AC7 /* RuntimeTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeTest.h; sourceTree = "<group>"; };
+		72BA1E26240E385500C10AC7 /* RuntimeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTest.m; sourceTree = "<group>"; };
 		72BFEAD52340B27B00CC4AA6 /* 计算机网络.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "计算机网络.pdf"; sourceTree = "<group>"; };
 		72BFEAD72340B29100CC4AA6 /* PDFReaderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFReaderController.h; sourceTree = "<group>"; };
 		72BFEAD82340B29100CC4AA6 /* PDFReaderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFReaderController.m; sourceTree = "<group>"; };
@@ -305,6 +322,7 @@
 		5AEF8F05215B51AF006E854E /* test */ = {
 			isa = PBXGroup;
 			children = (
+				72B50CB12406247700BFEF66 /* Other */,
 				72AF35AF23B4BE9700AF8121 /* Base */,
 				7217417123B44A1900665903 /* Games */,
 				7204CEC123B36FD400187F70 /* Test */,
@@ -389,8 +407,8 @@
 		7217417223B44A4400665903 /* BlackAndWhite */ = {
 			isa = PBXGroup;
 			children = (
-				7217417323B44A4400665903 /* ViewModel */,
 				7217417623B44A4400665903 /* Controller */,
+				7217417323B44A4400665903 /* ViewModel */,
 				7217417923B44A4400665903 /* Model */,
 				7217417C23B44A4400665903 /* View */,
 			);
@@ -402,6 +420,8 @@
 			children = (
 				7217417423B44A4400665903 /* BWItemCreater.h */,
 				7217417523B44A4400665903 /* BWItemCreater.m */,
+				72957BBB23D541470092831F /* BWConfig.h */,
+				72957BBC23D541470092831F /* BWConfig.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -418,8 +438,6 @@
 		7217417923B44A4400665903 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				723B81D323C57B5A001D52EE /* BWConfig.h */,
-				723B81D423C57B5A001D52EE /* BWConfig.m */,
 				7217417B23B44A4400665903 /* BWModel.h */,
 				7217417A23B44A4400665903 /* BWModel.m */,
 			);
@@ -429,10 +447,12 @@
 		7217417C23B44A4400665903 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				723B81D623C59F73001D52EE /* BWCell.h */,
-				7217417D23B44A4400665903 /* BWCell.m */,
-				7217417E23B44A4400665903 /* BWContainer.h */,
-				7217418023B44A4400665903 /* BWContainer.m */,
+				7217417E23B44A4400665903 /* BWGameContainer.h */,
+				7217418023B44A4400665903 /* BWGameContainer.m */,
+				72957BB823D53F810092831F /* BWGameView.h */,
+				72957BB923D53F810092831F /* BWGameView.m */,
+				72957BBE23D547EA0092831F /* BWGameCell.h */,
+				72957BBF23D547EA0092831F /* BWGameCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -479,14 +499,15 @@
 		722FF8322340B4E80041240C /* PDF */ = {
 			isa = PBXGroup;
 			children = (
+				72957BC623D585070092831F /* 明朝那些事.txt */,
 				72BFEAD52340B27B00CC4AA6 /* 计算机网络.pdf */,
 				722FF8332340B5200041240C /* 计算机科学概论.pdf */,
 				722FF8352340B5750041240C /* ReaderViewController.h */,
 				722FF8362340B5750041240C /* ReaderViewController.m */,
 				72BFEAD72340B29100CC4AA6 /* PDFReaderController.h */,
 				72BFEAD82340B29100CC4AA6 /* PDFReaderController.m */,
-				7223E5352340BA8A00C5471A /* CommentNode.h */,
-				7223E5362340BA8A00C5471A /* CommentNode.m */,
+				72957BC423D57EE50092831F /* CommentNode.h */,
+				72957BC323D57EE50092831F /* CommentNode.m */,
 			);
 			path = PDF;
 			sourceTree = "<group>";
@@ -586,6 +607,21 @@
 				72AF35B723B4BF8900AF8121 /* SFNavigationManager.m */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		72B50CB12406247700BFEF66 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				72B50CB22406248B00BFEF66 /* OtherViewController.h */,
+				72B50CB32406248B00BFEF66 /* OtherViewController.m */,
+				72B50CB524063B2E00BFEF66 /* Cycler.h */,
+				72B50CB624063B2E00BFEF66 /* Cycler.m */,
+				72B50CB824065AA900BFEF66 /* test1.h */,
+				72B50CB924065AA900BFEF66 /* test1.m */,
+				72BA1E25240E385500C10AC7 /* RuntimeTest.h */,
+				72BA1E26240E385500C10AC7 /* RuntimeTest.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 		B0F1102B324E5C95F879A681 /* Pods */ = {
@@ -704,6 +740,7 @@
 				72BFEAD62340B27B00CC4AA6 /* 计算机网络.pdf in Resources */,
 				5AEF8F13215B51B0006E854E /* LaunchScreen.storyboard in Resources */,
 				5AEF8F10215B51B0006E854E /* Assets.xcassets in Resources */,
+				72957BC723D585070092831F /* 明朝那些事.txt in Resources */,
 				722FF8342340B5200041240C /* 计算机科学概论.pdf in Resources */,
 				72AF35AA23B4BD9400AF8121 /* icon_ppNet.png in Resources */,
 				5AEF8F0E215B51AF006E854E /* Main.storyboard in Resources */,
@@ -753,29 +790,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72957BC023D547EA0092831F /* BWGameCell.m in Sources */,
 				72AF35BB23B4C00A00AF8121 /* NSObject+Extention.m in Sources */,
 				7217418223B44A4400665903 /* BWController.m in Sources */,
 				72AF35AB23B4BD9400AF8121 /* PPModel.m in Sources */,
-				7217418523B44A4400665903 /* BWContainer.m in Sources */,
+				7217418523B44A4400665903 /* BWGameContainer.m in Sources */,
 				72EE9D942230EC63004B39C5 /* UIImage+Extension.m in Sources */,
-				7223E5372340BA8A00C5471A /* CommentNode.m in Sources */,
 				72B3C40E21A6CD420053BD5B /* TTVC.m in Sources */,
 				722E3CC922F3DBE3008C53AF /* UIView+Extension.m in Sources */,
-				7217418423B44A4400665903 /* BWCell.m in Sources */,
+				72957BBA23D53F810092831F /* BWGameView.m in Sources */,
 				5AEF8F16215B51B0006E854E /* main.m in Sources */,
 				7217418123B44A4400665903 /* BWItemCreater.m in Sources */,
 				7217418C23B44B8700665903 /* GameModel.m in Sources */,
 				72AF35AE23B4BD9400AF8121 /* PPTable.m in Sources */,
 				72AF35B423B4BEDB00AF8121 /* SFNavigationController.m in Sources */,
-				723B81D523C57B5A001D52EE /* BWConfig.m in Sources */,
 				7217418323B44A4400665903 /* BWModel.m in Sources */,
 				7217418F23B44B9800665903 /* GameCell.m in Sources */,
 				72AF35A823B4BD9400AF8121 /* PPController.m in Sources */,
+				72B50CB42406248B00BFEF66 /* OtherViewController.m in Sources */,
+				72957BBD23D541470092831F /* BWConfig.m in Sources */,
+				72B50CBA24065AA900BFEF66 /* test1.m in Sources */,
 				72AF35B823B4BF8A00AF8121 /* SFNavigationManager.m in Sources */,
+				72BA1E27240E385500C10AC7 /* RuntimeTest.m in Sources */,
 				72AF35AD23B4BD9400AF8121 /* PPBall.m in Sources */,
 				7282145523B372FE0084C110 /* UIColor+Extension.m in Sources */,
 				72AF35B523B4BEDB00AF8121 /* SFBaseController.m in Sources */,
+				72957BC523D57EE50092831F /* CommentNode.m in Sources */,
 				72BFEAD92340B29100CC4AA6 /* PDFReaderController.m in Sources */,
+				72B50CB724063B2E00BFEF66 /* Cycler.m in Sources */,
 				7204CEC723B3700700187F70 /* TTCell.m in Sources */,
 				72EE9D952230EC63004B39C5 /* UIImage+ImageEffects.m in Sources */,
 				7204CECA23B3700F00187F70 /* TTModel.m in Sources */,
@@ -956,6 +998,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YGD3HJCTVB;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/test/New\\ Group",
@@ -999,6 +1042,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YGD3HJCTVB;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/test/New\\ Group",

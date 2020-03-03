@@ -10,6 +10,7 @@
 #import <WebKit/WebKit.h>
 #import "CommentNode.h"
 
+
 @interface PDFReaderController ()
 @property(nonatomic,strong)  WKWebView *webview;
 @end
@@ -19,13 +20,42 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _webview = [[WKWebView alloc] initWithFrame:self.view.bounds];
-    [self.view addSubview:_webview];
+    NSString *path;
+    if (!self.txt) {
+        path = [[NSBundle mainBundle] pathForResource:self.title ofType:@"pdf"];
+        NSURL *pdfUrl = [NSURL fileURLWithPath:path];
+        NSURLRequest *request = [NSURLRequest requestWithURL:pdfUrl];
+        _webview = [[WKWebView alloc] initWithFrame:self.view.bounds];
+        [self.view addSubview:_webview];
+        [_webview loadRequest:request];
+    }else {
+        
+        WKWebViewConfiguration *configuration = [[WKWebViewConfiguration alloc]init];
+        WKPreferences *preferences = [[WKPreferences alloc]init];
+        preferences.minimumFontSize = 15;
+        preferences.javaScriptCanOpenWindowsAutomatically = true;
+        configuration.preferences = preferences;
+        
+        _webview = [[WKWebView alloc] initWithFrame:self.view.bounds configuration:configuration];
+        [self.view addSubview:_webview];
+        
+        path = [[NSBundle mainBundle] pathForResource:self.title ofType:@"txt"];
+        
+        NSString *contents = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
+        
+        //如果不是 则进行GBK编码再解码一次
+        if (!contents) {
+            contents =[NSString stringWithContentsOfFile:path encoding:0x80000632 error:nil];
+        }
+        //不行用GB18030编码再解码一次
+        if (!contents) {
+            contents =[NSString stringWithContentsOfFile:path encoding:0x80000631 error:nil];
+        }
+        if (contents) {
+            [_webview loadHTMLString:contents baseURL:nil];
+        }
+    }
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:self.title ofType:@"pdf"];
-    NSURL *pdfUrl = [NSURL fileURLWithPath:path];
-    NSURLRequest *request = [NSURLRequest requestWithURL:pdfUrl];
-    [_webview loadRequest:request];
 //    [self performSelector:@selector(timerAction) withObject:nil afterDelay:1];
 }
 

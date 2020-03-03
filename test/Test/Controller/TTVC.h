@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface TTVC : SFBaseController
-@property (nonatomic, strong) NSString *tempString; //
+@property (nonatomic, weak) NSString *tempString; //
 @end

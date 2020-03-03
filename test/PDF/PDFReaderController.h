@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface PDFReaderController : UIViewController
+@property(nonatomic,assign) BOOL txt;       
 @end
 
 NS_ASSUME_NONNULL_END

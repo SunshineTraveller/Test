@@ -9,6 +9,7 @@
 typedef NS_ENUM(NSUInteger, TTType) {
     TTTypeGame,         // 跳转游戏
     TTTypePDFReader,    // PDF 阅读
+    TTTypeOther,        // 其他
     TTTypeNone,         // 暂无
 };
 

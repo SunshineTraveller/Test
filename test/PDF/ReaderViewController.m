@@ -42,11 +42,12 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     PDFReaderController *reader = [[PDFReaderController alloc] init];
     reader.title = _data[indexPath.row];
+    reader.txt = indexPath.row == 2;
     [self.navigationController pushViewController:reader animated:YES];
 }
 -(NSArray *)data {
     if (!_data) {
-        _data = @[@"计算机网络",@"计算机科学概论"];
+        _data = @[@"计算机网络",@"计算机科学概论",@"明朝那些事"];
     }
     return _data;
 }

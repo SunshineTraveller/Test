@@ -10,7 +10,7 @@
 #import "TTVC.h"
 #import "TTCell.h"
 
-
+#import "OtherViewController.h"
 #import "GameController.h"
 #import "ReaderViewController.h"
 
@@ -38,8 +38,8 @@
 
 -(void)setupData {
     _data = @[].mutableCopy;
-    NSArray *titles = @[@"小游戏",@"PDF阅读器"];
-    NSArray *types  = @[@(TTTypeGame),@(TTTypePDFReader)];
+    NSArray *titles = @[@"小游戏",@"PDF阅读器",@"其他"];
+    NSArray *types  = @[@(TTTypeGame),@(TTTypePDFReader),@(TTTypeOther)];
     [titles enumerateObjectsUsingBlock:^(NSString * obj, NSUInteger idx, BOOL * _Nonnull stop) {
         TTModel *model = [TTModel modelWithTitle:titles[idx] type:[types[idx] integerValue]];
         [_data addObject:model];
@@ -62,13 +62,16 @@
     if (model.type == TTTypeGame) {
         GameController *gameVC = [[GameController alloc] init];
         [self.navigationController pushViewController:gameVC animated:YES];
-    }else {
+    }else if(model.type == TTTypePDFReader){
         ReaderViewController *read = [[ReaderViewController alloc] init];
         [self.navigationController pushViewController:read animated:YES];
+    }else if (model.type == TTTypeOther) {
+        OtherViewController *other = [[OtherViewController alloc] init];
+        [self.navigationController pushViewController:other animated:YES];
     }
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 44;
+    return 64;
 }
 
 @end

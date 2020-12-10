@@ -47,15 +47,27 @@
 		7217418923B44B3500665903 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217418823B44B3500665903 /* GameController.m */; };
 		7217418C23B44B8700665903 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217418B23B44B8700665903 /* GameModel.m */; };
 		7217418F23B44B9800665903 /* GameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217418E23B44B9800665903 /* GameCell.m */; };
+		722606722549730A007DF5AC /* SFGiftManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 722606712549730A007DF5AC /* SFGiftManager.m */; };
+		7226067B25497359007DF5AC /* SFGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7226067A25497359007DF5AC /* SFGiftModel.m */; };
+		72260681254973B0007DF5AC /* SFGiftContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 72260680254973B0007DF5AC /* SFGiftContainer.m */; };
+		7226069025497658007DF5AC /* SFGiftOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7226068F25497658007DF5AC /* SFGiftOperation.m */; };
 		722E3CC922F3DBE3008C53AF /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 722E3CC822F3DBE2008C53AF /* UIView+Extension.m */; };
 		722FF8342340B5200041240C /* 计算机科学概论.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 722FF8332340B5200041240C /* 计算机科学概论.pdf */; };
 		722FF8372340B5750041240C /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 722FF8362340B5750041240C /* ReaderViewController.m */; };
+		723345B6251C4592005A04A4 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 723345B5251C4592005A04A4 /* RedView.m */; };
+		723345BB251C4634005A04A4 /* BlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 723345BA251C4634005A04A4 /* BlueView.m */; };
+		723345BE251C4645005A04A4 /* GreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 723345BD251C4645005A04A4 /* GreenView.m */; };
 		7282145523B372FE0084C110 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7282145323B372FD0084C110 /* UIColor+Extension.m */; };
 		72957BBA23D53F810092831F /* BWGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72957BB923D53F810092831F /* BWGameView.m */; };
 		72957BBD23D541470092831F /* BWConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 72957BBC23D541470092831F /* BWConfig.m */; };
 		72957BC023D547EA0092831F /* BWGameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72957BBF23D547EA0092831F /* BWGameCell.m */; };
 		72957BC523D57EE50092831F /* CommentNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 72957BC323D57EE50092831F /* CommentNode.m */; };
 		72957BC723D585070092831F /* 明朝那些事.txt in Resources */ = {isa = PBXBuildFile; fileRef = 72957BC623D585070092831F /* 明朝那些事.txt */; };
+		72ACA326257F6AAC0063E2D1 /* 第一本算法.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 72ACA325257F6AAC0063E2D1 /* 第一本算法.pdf */; };
+		72ACA32E257F70740063E2D1 /* Clock.m in Sources */ = {isa = PBXBuildFile; fileRef = 72ACA32D257F70740063E2D1 /* Clock.m */; };
+		72ACA338257F713A0063E2D1 /* ClockBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 72ACA337257F713A0063E2D1 /* ClockBoard.m */; };
+		72ACA33E257F71480063E2D1 /* ClockTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 72ACA33D257F71480063E2D1 /* ClockTime.m */; };
+		72ACA344257F71510063E2D1 /* ClockPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = 72ACA343257F71510063E2D1 /* ClockPointer.m */; };
 		72AF35A823B4BD9400AF8121 /* PPController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AF359723B4BD9400AF8121 /* PPController.m */; };
 		72AF35A923B4BD9400AF8121 /* icon_ppBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 72AF359923B4BD9400AF8121 /* icon_ppBall.png */; };
 		72AF35AA23B4BD9400AF8121 /* icon_ppNet.png in Resources */ = {isa = PBXBuildFile; fileRef = 72AF359A23B4BD9400AF8121 /* icon_ppNet.png */; };
@@ -158,11 +170,25 @@
 		7217418B23B44B8700665903 /* GameModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
 		7217418D23B44B9800665903 /* GameCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameCell.h; sourceTree = "<group>"; };
 		7217418E23B44B9800665903 /* GameCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameCell.m; sourceTree = "<group>"; };
+		722606702549730A007DF5AC /* SFGiftManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFGiftManager.h; sourceTree = "<group>"; };
+		722606712549730A007DF5AC /* SFGiftManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFGiftManager.m; sourceTree = "<group>"; };
+		7226067925497359007DF5AC /* SFGiftModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFGiftModel.h; sourceTree = "<group>"; };
+		7226067A25497359007DF5AC /* SFGiftModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFGiftModel.m; sourceTree = "<group>"; };
+		7226067F254973B0007DF5AC /* SFGiftContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFGiftContainer.h; sourceTree = "<group>"; };
+		72260680254973B0007DF5AC /* SFGiftContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFGiftContainer.m; sourceTree = "<group>"; };
+		7226068E25497658007DF5AC /* SFGiftOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFGiftOperation.h; sourceTree = "<group>"; };
+		7226068F25497658007DF5AC /* SFGiftOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFGiftOperation.m; sourceTree = "<group>"; };
 		722E3CC722F3DBE2008C53AF /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		722E3CC822F3DBE2008C53AF /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		722FF8332340B5200041240C /* 计算机科学概论.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "计算机科学概论.pdf"; sourceTree = "<group>"; };
 		722FF8352340B5750041240C /* ReaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReaderViewController.h; sourceTree = "<group>"; };
 		722FF8362340B5750041240C /* ReaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReaderViewController.m; sourceTree = "<group>"; };
+		723345B4251C4592005A04A4 /* RedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		723345B5251C4592005A04A4 /* RedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
+		723345B9251C4634005A04A4 /* BlueView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueView.h; sourceTree = "<group>"; };
+		723345BA251C4634005A04A4 /* BlueView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueView.m; sourceTree = "<group>"; };
+		723345BC251C4645005A04A4 /* GreenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreenView.h; sourceTree = "<group>"; };
+		723345BD251C4645005A04A4 /* GreenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreenView.m; sourceTree = "<group>"; };
 		7282145023B372350084C110 /* SFColorDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFColorDefines.h; sourceTree = "<group>"; };
 		7282145323B372FD0084C110 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		7282145423B372FE0084C110 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
@@ -175,6 +201,15 @@
 		72957BC323D57EE50092831F /* CommentNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentNode.m; sourceTree = "<group>"; };
 		72957BC423D57EE50092831F /* CommentNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentNode.h; sourceTree = "<group>"; };
 		72957BC623D585070092831F /* 明朝那些事.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "明朝那些事.txt"; sourceTree = "<group>"; };
+		72ACA325257F6AAC0063E2D1 /* 第一本算法.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "第一本算法.pdf"; sourceTree = "<group>"; };
+		72ACA32C257F70740063E2D1 /* Clock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Clock.h; sourceTree = "<group>"; };
+		72ACA32D257F70740063E2D1 /* Clock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Clock.m; sourceTree = "<group>"; };
+		72ACA336257F713A0063E2D1 /* ClockBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockBoard.h; sourceTree = "<group>"; };
+		72ACA337257F713A0063E2D1 /* ClockBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockBoard.m; sourceTree = "<group>"; };
+		72ACA33C257F71480063E2D1 /* ClockTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockTime.h; sourceTree = "<group>"; };
+		72ACA33D257F71480063E2D1 /* ClockTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockTime.m; sourceTree = "<group>"; };
+		72ACA342257F71510063E2D1 /* ClockPointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockPointer.h; sourceTree = "<group>"; };
+		72ACA343257F71510063E2D1 /* ClockPointer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockPointer.m; sourceTree = "<group>"; };
 		72AF359623B4BD9400AF8121 /* PPController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPController.h; sourceTree = "<group>"; };
 		72AF359723B4BD9400AF8121 /* PPController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPController.m; sourceTree = "<group>"; };
 		72AF359923B4BD9400AF8121 /* icon_ppBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ppBall.png; sourceTree = "<group>"; };
@@ -322,6 +357,7 @@
 		5AEF8F05215B51AF006E854E /* test */ = {
 			isa = PBXGroup;
 			children = (
+				72FDD477254915DC000E141C /* Animate */,
 				72B50CB12406247700BFEF66 /* Other */,
 				72AF35AF23B4BE9700AF8121 /* Base */,
 				7217417123B44A1900665903 /* Games */,
@@ -470,6 +506,21 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		7226066F254972F9007DF5AC /* Gift */ = {
+			isa = PBXGroup;
+			children = (
+				722606702549730A007DF5AC /* SFGiftManager.h */,
+				722606712549730A007DF5AC /* SFGiftManager.m */,
+				7226067925497359007DF5AC /* SFGiftModel.h */,
+				7226067A25497359007DF5AC /* SFGiftModel.m */,
+				7226067F254973B0007DF5AC /* SFGiftContainer.h */,
+				72260680254973B0007DF5AC /* SFGiftContainer.m */,
+				7226068E25497658007DF5AC /* SFGiftOperation.h */,
+				7226068F25497658007DF5AC /* SFGiftOperation.m */,
+			);
+			path = Gift;
+			sourceTree = "<group>";
+		};
 		72285DDD23B1E1CC00BE4A32 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -499,6 +550,7 @@
 		722FF8322340B4E80041240C /* PDF */ = {
 			isa = PBXGroup;
 			children = (
+				72ACA325257F6AAC0063E2D1 /* 第一本算法.pdf */,
 				72957BC623D585070092831F /* 明朝那些事.txt */,
 				72BFEAD52340B27B00CC4AA6 /* 计算机网络.pdf */,
 				722FF8332340B5200041240C /* 计算机科学概论.pdf */,
@@ -512,6 +564,32 @@
 			path = PDF;
 			sourceTree = "<group>";
 		};
+		723345B7251C4596005A04A4 /* cycle */ = {
+			isa = PBXGroup;
+			children = (
+				72B50CB524063B2E00BFEF66 /* Cycler.h */,
+				72B50CB624063B2E00BFEF66 /* Cycler.m */,
+				72B50CB824065AA900BFEF66 /* test1.h */,
+				72B50CB924065AA900BFEF66 /* test1.m */,
+				72BA1E25240E385500C10AC7 /* RuntimeTest.h */,
+				72BA1E26240E385500C10AC7 /* RuntimeTest.m */,
+			);
+			path = cycle;
+			sourceTree = "<group>";
+		};
+		723345B8251C45A0005A04A4 /* responsechain */ = {
+			isa = PBXGroup;
+			children = (
+				723345B4251C4592005A04A4 /* RedView.h */,
+				723345B5251C4592005A04A4 /* RedView.m */,
+				723345B9251C4634005A04A4 /* BlueView.h */,
+				723345BA251C4634005A04A4 /* BlueView.m */,
+				723345BC251C4645005A04A4 /* GreenView.h */,
+				723345BD251C4645005A04A4 /* GreenView.m */,
+			);
+			path = responsechain;
+			sourceTree = "<group>";
+		};
 		7282145223B3723C0084C110 /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -519,6 +597,53 @@
 				7282145023B372350084C110 /* SFColorDefines.h */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		72ACA32A257F6FE30063E2D1 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				72ACA32B257F6FEF0063E2D1 /* View */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		72ACA32B257F6FEF0063E2D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72ACA32C257F70740063E2D1 /* Clock.h */,
+				72ACA32D257F70740063E2D1 /* Clock.m */,
+				72ACA335257F70AD0063E2D1 /* ClockBoard */,
+				72ACA334257F70AB0063E2D1 /* ClockTime */,
+				72ACA333257F70A80063E2D1 /* ClockPointer */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		72ACA333257F70A80063E2D1 /* ClockPointer */ = {
+			isa = PBXGroup;
+			children = (
+				72ACA342257F71510063E2D1 /* ClockPointer.h */,
+				72ACA343257F71510063E2D1 /* ClockPointer.m */,
+			);
+			path = ClockPointer;
+			sourceTree = "<group>";
+		};
+		72ACA334257F70AB0063E2D1 /* ClockTime */ = {
+			isa = PBXGroup;
+			children = (
+				72ACA33C257F71480063E2D1 /* ClockTime.h */,
+				72ACA33D257F71480063E2D1 /* ClockTime.m */,
+			);
+			path = ClockTime;
+			sourceTree = "<group>";
+		};
+		72ACA335257F70AD0063E2D1 /* ClockBoard */ = {
+			isa = PBXGroup;
+			children = (
+				72ACA336257F713A0063E2D1 /* ClockBoard.h */,
+				72ACA337257F713A0063E2D1 /* ClockBoard.m */,
+			);
+			path = ClockBoard;
 			sourceTree = "<group>";
 		};
 		72AF359423B4BD9400AF8121 /* PingPangGame */ = {
@@ -614,14 +739,19 @@
 			children = (
 				72B50CB22406248B00BFEF66 /* OtherViewController.h */,
 				72B50CB32406248B00BFEF66 /* OtherViewController.m */,
-				72B50CB524063B2E00BFEF66 /* Cycler.h */,
-				72B50CB624063B2E00BFEF66 /* Cycler.m */,
-				72B50CB824065AA900BFEF66 /* test1.h */,
-				72B50CB924065AA900BFEF66 /* test1.m */,
-				72BA1E25240E385500C10AC7 /* RuntimeTest.h */,
-				72BA1E26240E385500C10AC7 /* RuntimeTest.m */,
+				72ACA32A257F6FE30063E2D1 /* Clock */,
+				7226066F254972F9007DF5AC /* Gift */,
+				723345B7251C4596005A04A4 /* cycle */,
+				723345B8251C45A0005A04A4 /* responsechain */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		72FDD477254915DC000E141C /* Animate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animate;
 			sourceTree = "<group>";
 		};
 		B0F1102B324E5C95F879A681 /* Pods */ = {
@@ -738,6 +868,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72BFEAD62340B27B00CC4AA6 /* 计算机网络.pdf in Resources */,
+				72ACA326257F6AAC0063E2D1 /* 第一本算法.pdf in Resources */,
 				5AEF8F13215B51B0006E854E /* LaunchScreen.storyboard in Resources */,
 				5AEF8F10215B51B0006E854E /* Assets.xcassets in Resources */,
 				72957BC723D585070092831F /* 明朝那些事.txt in Resources */,
@@ -790,7 +921,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72ACA32E257F70740063E2D1 /* Clock.m in Sources */,
 				72957BC023D547EA0092831F /* BWGameCell.m in Sources */,
+				723345BB251C4634005A04A4 /* BlueView.m in Sources */,
+				72ACA338257F713A0063E2D1 /* ClockBoard.m in Sources */,
 				72AF35BB23B4C00A00AF8121 /* NSObject+Extention.m in Sources */,
 				7217418223B44A4400665903 /* BWController.m in Sources */,
 				72AF35AB23B4BD9400AF8121 /* PPModel.m in Sources */,
@@ -805,6 +939,8 @@
 				72AF35AE23B4BD9400AF8121 /* PPTable.m in Sources */,
 				72AF35B423B4BEDB00AF8121 /* SFNavigationController.m in Sources */,
 				7217418323B44A4400665903 /* BWModel.m in Sources */,
+				72ACA344257F71510063E2D1 /* ClockPointer.m in Sources */,
+				72ACA33E257F71480063E2D1 /* ClockTime.m in Sources */,
 				7217418F23B44B9800665903 /* GameCell.m in Sources */,
 				72AF35A823B4BD9400AF8121 /* PPController.m in Sources */,
 				72B50CB42406248B00BFEF66 /* OtherViewController.m in Sources */,
@@ -813,13 +949,19 @@
 				72AF35B823B4BF8A00AF8121 /* SFNavigationManager.m in Sources */,
 				72BA1E27240E385500C10AC7 /* RuntimeTest.m in Sources */,
 				72AF35AD23B4BD9400AF8121 /* PPBall.m in Sources */,
+				723345BE251C4645005A04A4 /* GreenView.m in Sources */,
+				722606722549730A007DF5AC /* SFGiftManager.m in Sources */,
 				7282145523B372FE0084C110 /* UIColor+Extension.m in Sources */,
 				72AF35B523B4BEDB00AF8121 /* SFBaseController.m in Sources */,
 				72957BC523D57EE50092831F /* CommentNode.m in Sources */,
+				723345B6251C4592005A04A4 /* RedView.m in Sources */,
 				72BFEAD92340B29100CC4AA6 /* PDFReaderController.m in Sources */,
 				72B50CB724063B2E00BFEF66 /* Cycler.m in Sources */,
 				7204CEC723B3700700187F70 /* TTCell.m in Sources */,
+				7226067B25497359007DF5AC /* SFGiftModel.m in Sources */,
 				72EE9D952230EC63004B39C5 /* UIImage+ImageEffects.m in Sources */,
+				72260681254973B0007DF5AC /* SFGiftContainer.m in Sources */,
+				7226069025497658007DF5AC /* SFGiftOperation.m in Sources */,
 				7204CECA23B3700F00187F70 /* TTModel.m in Sources */,
 				7217418923B44B3500665903 /* GameController.m in Sources */,
 				72AF35AC23B4BD9400AF8121 /* PPBat.m in Sources */,

@@ -16,23 +16,36 @@ PODS:
     - AFNetworking/NSURLSession
   - Masonry (1.1.0)
   - MJExtension (3.0.17)
+  - SDWebImage (5.8.3):
+    - SDWebImage/Core (= 5.8.3)
+  - SDWebImage/Core (5.8.3)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - Masonry
   - MJExtension (= 3.0.17)
+  - SDWebImage (= 5.8.3)
+  - YYKit
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - Masonry
     - MJExtension
+  trunk:
+    - SDWebImage
+    - YYKit
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
+  SDWebImage: 112503ec94a5a2a41869503844a15e8d8f1ead5c
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 25b1a30f6ad7f70d01c65ffa4c0eaac5cda28e48
+PODFILE CHECKSUM: 451ae23bff83e3bda4891134ea31c4266b9ff57a
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.0.rc.1

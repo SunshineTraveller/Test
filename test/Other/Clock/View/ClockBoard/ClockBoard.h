@@ -18,6 +18,11 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)setHour:(CGFloat)hour
         minute:(CGFloat)minute
         second:(CGFloat)second;
+
+-(void)setYear:(NSInteger)year
+         Month:(NSInteger)month
+           day:(NSInteger)day;
+
 -(void)start;
 -(void)stop;
 

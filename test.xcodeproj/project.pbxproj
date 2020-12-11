@@ -57,6 +57,7 @@
 		723345B6251C4592005A04A4 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 723345B5251C4592005A04A4 /* RedView.m */; };
 		723345BB251C4634005A04A4 /* BlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 723345BA251C4634005A04A4 /* BlueView.m */; };
 		723345BE251C4645005A04A4 /* GreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 723345BD251C4645005A04A4 /* GreenView.m */; };
+		7277BF3C258326EC00A40E8F /* rolex.png in Resources */ = {isa = PBXBuildFile; fileRef = 7277BF3B258326EC00A40E8F /* rolex.png */; };
 		7282145523B372FE0084C110 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7282145323B372FD0084C110 /* UIColor+Extension.m */; };
 		72957BBA23D53F810092831F /* BWGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72957BB923D53F810092831F /* BWGameView.m */; };
 		72957BBD23D541470092831F /* BWConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 72957BBC23D541470092831F /* BWConfig.m */; };
@@ -189,6 +190,7 @@
 		723345BA251C4634005A04A4 /* BlueView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueView.m; sourceTree = "<group>"; };
 		723345BC251C4645005A04A4 /* GreenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreenView.h; sourceTree = "<group>"; };
 		723345BD251C4645005A04A4 /* GreenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreenView.m; sourceTree = "<group>"; };
+		7277BF3B258326EC00A40E8F /* rolex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rolex.png; sourceTree = "<group>"; };
 		7282145023B372350084C110 /* SFColorDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFColorDefines.h; sourceTree = "<group>"; };
 		7282145323B372FD0084C110 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		7282145423B372FE0084C110 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
@@ -642,6 +644,7 @@
 			children = (
 				72ACA336257F713A0063E2D1 /* ClockBoard.h */,
 				72ACA337257F713A0063E2D1 /* ClockBoard.m */,
+				7277BF3B258326EC00A40E8F /* rolex.png */,
 			);
 			path = ClockBoard;
 			sourceTree = "<group>";
@@ -869,6 +872,7 @@
 			files = (
 				72BFEAD62340B27B00CC4AA6 /* 计算机网络.pdf in Resources */,
 				72ACA326257F6AAC0063E2D1 /* 第一本算法.pdf in Resources */,
+				7277BF3C258326EC00A40E8F /* rolex.png in Resources */,
 				5AEF8F13215B51B0006E854E /* LaunchScreen.storyboard in Resources */,
 				5AEF8F10215B51B0006E854E /* Assets.xcassets in Resources */,
 				72957BC723D585070092831F /* 明朝那些事.txt in Resources */,

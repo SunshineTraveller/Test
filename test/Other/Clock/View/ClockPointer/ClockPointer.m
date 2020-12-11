@@ -40,12 +40,7 @@
     CGFloat width   = [[self getConfig][@"width"] floatValue];
     
     _bezierPath     = [UIBezierPath bezierPath];
-    
-//    CGPoint start   = CGPointMake(0, 0);
-//    CGPoint end     = CGPointMake(0, length);
-//    [_bezierPath moveToPoint:start];
-//    [_bezierPath addLineToPoint:end];
-    
+
     CGFloat pointLength = width/(2*0.557);
     
     CGPoint firstPoi = CGPointMake(-width/2, 0);
@@ -77,23 +72,23 @@
     switch (_pointerType) {
         case ClockPointerTypeHour:
             return @{
-                @"color":kRedColor,
+                @"color":SFhexColor(@"ffd700"),
                 @"length":@(50),
-                @"width":@(8),
+                @"width":@(5),
             };
             break;
         case ClockPointerTypeMin:
             return @{
-                @"color":kBlueColor,
+                @"color":SFhexColor(@"fad204"),
                 @"length":@(75),
-                @"width":@(5),
+                @"width":@(2.5),
             };
             break;
         case ClockPointerTypeSec:
             return @{
-                @"color":kYellowColor,
+                @"color":SFhexColor(@"fbd108"),
                 @"length":@(90),
-                @"width":@(2),
+                @"width":@(1),
             };
             break;
         default:

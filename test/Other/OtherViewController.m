@@ -48,11 +48,19 @@
     Clock *clock = [Clock clockView:CGRectMake(375/2-100, 100, 200, 200)];
     [self.view addSubview:clock];
     
-    CGFloat hour = 19;
-    CGFloat min  = 40;
-    CGFloat sec  = 30;
+    NSDate *date = [NSDate date];
+    NSDateFormatter *formatter = [NSDateFormatter new];
+    formatter.dateFormat = @"yyyy-MM-dd hh:mm:ss";
+    NSString *dateString = [formatter stringFromDate:date];
+    NSArray *yearArr = [[dateString componentsSeparatedByString:@" "].firstObject componentsSeparatedByString:@"-"];
+    NSArray *hourArr = [[dateString componentsSeparatedByString:@" "].lastObject componentsSeparatedByString:@":"];
+    
+    CGFloat hour = [hourArr[0] floatValue];
+    CGFloat min  = [hourArr[1] floatValue];;
+    CGFloat sec  = [hourArr[2] floatValue];;
     
     [clock.board setHour:hour minute:min second:sec];
+    [clock.board setYear:[yearArr[0] integerValue] Month:[yearArr[1] integerValue] day:[yearArr[2] integerValue]];
 
     [clock.board start];
 }

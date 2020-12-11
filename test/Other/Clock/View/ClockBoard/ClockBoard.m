@@ -31,7 +31,9 @@
 // hour
 @property(nonatomic,assign) CGFloat      hour;
 // clockScale
-@property(nonatomic,assign) BOOL        clockScale;
+@property(nonatomic,assign) BOOL         clockScale;
+// 日期
+@property(nonatomic,strong) UILabel      *dateLabel;
 
 @end
 
@@ -45,10 +47,12 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        [self drawClockCenter];
+        [self drawGradientBg];
         [self drawClockScale];
+        [self setupDateLabel];
         [self drawClockPointer];
         [self setupSubviews];
+        [self drawClockCenter];
     }
     return self;
 }
@@ -67,6 +71,13 @@
              animate:NO];
 }
 
+-(void)setYear:(NSInteger)year
+         Month:(NSInteger)month
+           day:(NSInteger)day {
+    
+    _dateLabel.text = [NSString stringWithFormat:@"%ld-%ld-%ld",(long)year,(long)month,(long)day];
+}
+
 -(void)start {
     [self setupTimer];
 }
@@ -76,7 +87,7 @@
 }
 
 -(void)setupSubviews {
-    self.backgroundColor = kBlackColor;
+//    self.backgroundColor = SFhexColor(@"3b4857");
 }
 
 -(void)layoutSubviews {
@@ -106,6 +117,16 @@
     innerLayer.lineWidth = 1.f;
     [self.layer addSublayer:innerLayer];
     
+}
+
+// 绘制背景渐变
+-(void)drawGradientBg {
+    CAGradientLayer *layer = [CAGradientLayer layer];
+    layer.frame = self.bounds;
+    layer.startPoint = CGPointMake(0, 0);
+    layer.endPoint = CGPointMake(0, 1);
+    layer.colors = @[(id)SFhexColor(@"17295c").CGColor,(id)SFhexColor(@"426ead").CGColor];
+    [self.layer addSublayer:layer];
 }
 
 // 刻度
@@ -169,6 +190,19 @@
     
 }
 
+-(void)setupDateLabel {
+    _dateLabel = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMidX(self.bounds)+12, CGRectGetMidY(self.bounds)-5, CGRectGetWidth(self.bounds)/2 - 45, 10)];
+    _dateLabel.font = [UIFont systemFontOfSize:9];
+    [_dateLabel setCorner:2];
+    _dateLabel.textColor = SFhexColorAlpha(@"000000", 0.9);
+    _dateLabel.backgroundColor = SFhexColorAlpha(@"ffffff", 0.9);
+    _dateLabel.textAlignment = NSTextAlignmentCenter;
+    [self addSubview:_dateLabel];
+    
+    UIImageView *logo = [[UIImageView alloc] initWithFrame:CGRectMake(CGRectGetMidX(self.bounds)-30, 25, 60, 60)];
+    logo.image = [UIImage imageNamed:@"rolex"];
+    [self addSubview:logo];
+}
 
 // 表针
 -(void)drawClockPointer {

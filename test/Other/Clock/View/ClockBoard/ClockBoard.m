@@ -34,6 +34,8 @@
 @property(nonatomic,assign) BOOL         clockScale;
 // 日期
 @property(nonatomic,strong) UILabel      *dateLabel;
+// 线性匀速 ？
+@property(nonatomic,assign) BOOL         isLiner;
 
 @end
 
@@ -47,11 +49,11 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
+        _isLiner = YES;
         [self drawGradientBg];
         [self drawClockScale];
         [self setupDateLabel];
         [self drawClockPointer];
-        [self setupSubviews];
         [self drawClockCenter];
     }
     return self;
@@ -84,10 +86,6 @@
 
 -(void)stop {
     [self stopTimer];
-}
-
--(void)setupSubviews {
-//    self.backgroundColor = SFhexColor(@"3b4857");
 }
 
 -(void)layoutSubviews {
@@ -168,7 +166,6 @@
             //    caleValue.transform = CGAffineTransformMakeRotation(valueAngle * i / 5);
         }
     }
-    
     
     // 1.用虚线画刻度，但是精度不够高且不能画较粗的刻度
     //        CAShapeLayer *shapeLayer = [CAShapeLayer layer];
@@ -268,7 +265,7 @@
 
 -(void)timerAction {
     
-    _second += 1.f;
+    _second += _isLiner ? 0.1f : 1.f;
     _minute = _second / 60.f;
     _hour   = _minute / 60.f;
     [self updateHour:_hour minute:_minute second:_second animate:YES];
@@ -276,7 +273,7 @@
 
 -(void)setupTimer {
     if (!_timer) {
-        _timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerAction) userInfo:nil repeats:YES];
+        _timer = [NSTimer scheduledTimerWithTimeInterval:_isLiner ? 0.1f : 1.f target:self selector:@selector(timerAction) userInfo:nil repeats:YES];
         [_timer setFireDate:[NSDate distantPast]];
     }
 }

@@ -43,9 +43,13 @@
     
     [self addClock];
 }
-
+-(void)dealloc {
+    Clock *clock = (Clock *)[self.view viewWithTag:1022];
+    [clock.board stop];
+}
 -(void)addClock {
     Clock *clock = [Clock clockView:CGRectMake(375/2-100, 100, 200, 200)];
+    clock.tag = 1022;
     [self.view addSubview:clock];
     
     NSDate *date = [NSDate date];
